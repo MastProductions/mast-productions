@@ -29,7 +29,24 @@
       border-radius: 10px;
       margin: 1rem 0;
     }
-  </style>
+  
+    .package-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .package {
+      background: #e0f7f9;
+      border: 1px solid #cfd8dc;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    .package h3 {
+      color: #00796b;
+      margin-top: 0;
+    }
+    </style>
 </head>
 <body>
 
@@ -66,6 +83,15 @@
     </section>
 
     
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <img src="your-photo.jpg" alt="Alice Järvet Photo" class="contact-photo">
+      <p>Email: <a href="mailto:alice.jarvet@gmail.com">alice.jarvet@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/alice-järvet-767838" target="_blank">View Profile</a></p>
+    </section>
+  
+    <section id="services">
       <h2>Services</h2>
       <p>Whether you're a nonprofit, artist, activist, or business owner, MAST Productions offers tailored video solutions that make your story stand out.</p>
 
@@ -103,7 +129,7 @@
           </ul>
         </div>
 
-        <div class="package">
+        <div class="package" style="grid-column: 2 / span 1;">
           <h3>À La Carte Options</h3>
           <ul>
             <li>Subtitling and translation (Estonian, English, French, Russian, Finnish)</li>
@@ -116,54 +142,7 @@
 
       <p style="margin-top: 2rem;">Contact me to discuss a custom package or collaboration idea that fits your goals.</p>
     </section>
-      <h2>Services</h2>
-      <p>Whether you're a nonprofit, artist, activist, or business owner, MAST Productions offers tailored video solutions that make your story stand out.</p>
-
-      <h3>🎬 Basic Package</h3>
-      <ul>
-        <li>Up to 1-minute edited video (ideal for Instagram or TikTok)</li>
-        <li>Client-provided footage</li>
-        <li>Basic text overlays and transitions</li>
-        <li>Color correction + audio normalization</li>
-        <li>1 round of revisions</li>
-      </ul>
-
-      <h3>📣 Pro Package</h3>
-      <ul>
-        <li>Up to 3-minute edited video (for campaigns, interviews, promos)</li>
-        <li>Pre-edit consultation + storyboard guidance</li>
-        <li>Includes sound design, music licensing, and motion graphics</li>
-        <li>2 rounds of revisions</li>
-        <li>Output in formats for social media, YouTube, or websites</li>
-      </ul>
-
-      <h3>🎥 Premium Package</h3>
-      <ul>
-        <li>Up to 10-minute full-feature video (documentary, event, or story)</li>
-        <li>Full production support: filming, direction, scripting</li>
-        <li>Professional editing with animations, subtitles, and branding</li>
-        <li>Voiceover & translation options</li>
-        <li>Up to 3 revisions + social media cuts</li>
-      </ul>
-
-      <h3>🎯 À La Carte Options</h3>
-      <ul>
-        <li>Subtitling and translation (Estonian, English, French, Russian, Finnish)</li>
-        <li>Short-form content repurposing</li>
-        <li>Consulting on video strategy and storytelling</li>
-        <li>Event coverage (on request)</li>
-      </ul>
-
-      <p>Contact me to discuss a custom package or collaboration idea that fits your goals.</p>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <img src="your-photo.jpg" alt="Alice Järvet Photo" class="contact-photo">
-      <p>Email: <a href="mailto:alice.jarvet@gmail.com">alice.jarvet@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/alice-järvet-767838" target="_blank">View Profile</a></p>
-    </section>
-  </main>
+    </main>
 
   <footer class="container">
     <small><a href="#">Privacy</a> • <a href="#">Terms</a></small>
