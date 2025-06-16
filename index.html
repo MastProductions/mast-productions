@@ -1,130 +1,150 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="MAST Productions – Creative video storytelling studio offering full video production, editing, and strategy services since 2015.">
-  <meta name="keywords" content="MAST Productions, video production Estonia, creative storytelling, editing, social media videos, filming service, Tallinn media">
-  <title>MAST Productions</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MAST Productions – Alice Järvet</title>
+    <meta name="description" content="MAST Productions creates impactful video content for NGOs, artists, businesses, and cultural projects. Founded by Alice Järvet in 2015." />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "MAST Productions",
-    "url": "https://mastproductions.org",
-    "logo": "https://mastproductions.org/images/logo.png",
-    "description": "Creative video production studio founded by Alice Järvet in Estonia, offering filming, editing, and storytelling services.",
-    "founder": {
-      "@type": "Person",
-      "name": "Alice Järvet"
-    },
-    "sameAs": [
-      "https://www.youtube.com/@AliceJarvet",
-      "https://www.facebook.com/eluliin/videos",
-      "https://www.linkedin.com/in/alice-järvet-767838"
-    ]
-  }
-  </script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8EQ0MH56E5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-8EQ0MH56E5");
+    </script>
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Alice Järvet",
-    "jobTitle": "Founder and Creative Director at MAST Productions",
-    "url": "https://mastproductions.org",
-    "sameAs": [
-      "https://www.youtube.com/@AliceJarvet",
-      "https://www.linkedin.com/in/alice-järvet-767838"
-    ]
-  }
-  </script>
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "MAST Productions",
+        "url": "https://mastproductions.org",
+        "sameAs": [
+          "https://www.facebook.com/eluliin/reels/",
+          "https://www.youtube.com/@alicejarvet"
+        ],
+        "founder": {
+          "@type": "Person",
+          "name": "Alice Järvet"
+        },
+        "foundingDate": "2015",
+        "description": "Video production company specializing in impactful stories for social causes and creative projects.",
+        "email": "alice.jarvet@gmail.com"
+      }
+    </script>
+  </head>
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "VideoObject",
-    "name": "Social Impact Video by MAST Productions",
-    "description": "A sample video demonstrating MAST Productions’ video storytelling approach.",
-    "thumbnailUrl": "https://img.youtube.com/vi/h9sl3XX04V8/0.jpg",
-    "uploadDate": "2025-06-11",
-    "contentUrl": "https://mastproductions.org/",
-    "embedUrl": "https://www.youtube.com/embed/h9sl3XX04V8"
-  }
-  </script>
-</head>
-<body>
-  <nav class="container-fluid">
-    <ul></ul>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Packages</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  <main class="container">
-    <div class="grid">
-      <section id="about">
-        <hgroup>
-          <h2>About Me</h2>
-          <h3>Alice Järvet – Founder of MAST Productions</h3>
-        </hgroup>
-        <p>MAST Productions was founded in 2015 by Alice Järvet. With over a decade of experience in video production and editing, MAST Productions creates compelling visual content that communicates stories across cultures and communities.</p>
-        <p>Our mission is to produce content that not only captivates but inspires and informs. Whether you're an NGO, artist, business, or cultural festival – our goal is to amplify your message with meaningful media.</p>
-      </section>
-      <section id="services">
-        <hgroup>
-          <h2>Service Packages</h2>
-          <h3>Video production tailored to your story</h3>
-        </hgroup>
-        <div class="grid">
+  <body>
+    <nav class="container-fluid">
+      <ul>
+        <li><strong></strong></li>
+      </ul>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+        <!-- About -->
+        <section id="about" itemscope itemtype="https://schema.org/AboutPage">
+          <h2 itemprop="headline">About Me</h2>
+          <p><strong>Alice Järvet</strong> – Founder of MAST Productions</p>
+          <p itemprop="description">
+            MAST Productions was founded in 2015 by Alice Järvet. With over a decade of experience in video production and editing, MAST Productions creates compelling visual content that communicates stories across cultures and communities.
+          </p>
+          <p>
+            Our mission is to produce content that not only captivates but inspires and informs. Whether you're an NGO, artist, business, or cultural festival – our goal is to amplify your voice through visual storytelling.
+          </p>
+        </section>
+
+        <!-- Services -->
+        <section id="packages" itemscope itemtype="https://schema.org/Service">
+          <h2 itemprop="name">Service Packages</h2>
+          <p>Video production tailored to your story</p>
+
           <article>
-            <h4>Basic Package</h4>
-            <p>Up to 1-minute edited video (ideal for social media platforms). We can shoot or use client-provided footage. Basic text overlays, transitions, green screen recordings, color correction + audio normalization. 1 round of revisions.</p>
+            <h3>Basic Package</h3>
+            <ul>
+              <li>Up to 1-minute edited video (ideal for social media platforms)</li>
+              <li>We can shoot or use client-provided footage</li>
+              <li>Basic text overlays, transitions, green screen recordings</li>
+              <li>Color correction + audio normalisation</li>
+              <li>1 round of revisions</li>
+            </ul>
           </article>
+
           <article>
-            <h4>Pro Package</h4>
-            <p>Up to 3-minute edited video (for campaigns, interviews, promos). Includes pre-edit consultation, storyboard guidance, sound design, music licensing, and motion graphics. 2 rounds of revisions. Formats optimized for all platforms.</p>
+            <h3>Pro Package</h3>
+            <ul>
+              <li>Up to 3-minute edited video (for campaigns, interviews, promos)</li>
+              <li>Pre-edit consultation + storyboard guidance</li>
+              <li>Includes sound design, music licensing, motion graphics</li>
+              <li>2 rounds of revisions</li>
+              <li>Output in formats for social media, YouTube, or websites</li>
+            </ul>
           </article>
+
           <article>
-            <h4>Premium Package</h4>
-            <p>Up to 60-minute full-feature video or series. Full production: filming, direction, scripting, editing, animations, subtitles, branding, voiceover & translation. Up to 3 revisions + social media cuts.</p>
+            <h3>Premium Package</h3>
+            <ul>
+              <li>Up to 60-minute full-feature video or series (documentary, event, story)</li>
+              <li>Full production: filming, direction, scripting</li>
+              <li>Professional editing, animations, subtitles, branding</li>
+              <li>Voiceover & translation options</li>
+              <li>Up to 3 revisions + social media cuts</li>
+            </ul>
           </article>
+
           <article>
-            <h4>À La Carte Options</h4>
-            <p>Subtitling and translation (Estonian, English, French, Russian, Finnish), short-form content repurposing, storytelling consulting, event coverage (on request).</p>
+            <h3>À La Carte Options</h3>
+            <ul>
+              <li>Subtitling and translation (Estonian, English, French, Russian, Finnish)</li>
+              <li>Short-form content repurposing</li>
+              <li>Consulting on video strategy and storytelling</li>
+              <li>Event coverage (on request)</li>
+            </ul>
           </article>
-        </div>
-      </section>
+        </section>
 
-      <section id="videos">
-        <h2>Video Showcase</h2>
-        <div class='sk-ww-youtube-channel-videos' data-embed-id='25566254'></div>
-        <script src='https://widgets.sociablekit.com/youtube-channel-videos/widget.js' defer></script>
-      </section>
+        <!-- Videos -->
+        <section id="videos" itemscope itemtype="https://schema.org/VideoGallery">
+          <h2 itemprop="name">Video Showcase</h2>
+          <div class="sk-ww-youtube-channel-videos" data-embed-id="25566254"></div>
+          <script src="https://widgets.sociablekit.com/youtube-channel-videos/widget.js" defer></script>
+        </section>
 
-      <section id="facebook">
-        <h2>Facebook Reels</h2>
-        <div class='sk-ww-facebook-reels' data-embed-id='YOUR_EMBED_ID'></div>
-        <script src='https://widgets.sociablekit.com/facebook-reels/widget.js' defer></script>
-      </section>
+        <!-- Facebook Reels -->
+        <section id="reels">
+          <h2>Facebook Reels</h2>
+          <div class="sk-ww-facebook-page-posts" data-embed-id="25571652"></div>
+          <script src="https://widgets.sociablekit.com/facebook-page-posts/widget.js" defer></script>
+        </section>
 
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:alice.jarvet@gmail.com">alice.jarvet@gmail.com</a></p>
-        <figure>
-          <img src="https://mastproductions.org/images/alice.jpg" alt="Alice Järvet">
-          <figcaption>Alice Järvet</figcaption>
-        </figure>
-      </section>
-    </div>
-  </main>
+        <!-- Contact -->
+        <section id="contact" itemscope itemtype="https://schema.org/ContactPage">
+          <h2 itemprop="name">Contact</h2>
+          <p>Email: <a href="mailto:alice.jarvet@gmail.com">alice.jarvet@gmail.com</a></p>
+          <figure>
+            <img src="your-photo.JPG" alt="Alice Järvet" width="180" />
+            <figcaption>Alice Järvet</figcaption>
+          </figure>
+        </section>
+      </div>
+    </main>
 
-  <footer class="container">
-    <small><a href="et.html">Eesti keeles</a> • <a href="#top">Back to top</a></small>
-  </footer>
-</body>
+    <footer class="container">
+      <small>
+        <a href="#">Privacy</a> • <a href="#">Terms</a>
+      </small>
+    </footer>
+  </body>
 </html>
